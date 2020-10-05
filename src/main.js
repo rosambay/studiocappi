@@ -13,6 +13,10 @@ import "@/plugins/vuetify-money.js";
 
 
 
+const { db } = require('../.env')
+
+
+
 
 
 
@@ -24,7 +28,7 @@ var firebaseConfig = {
   storageBucket: "dicuore.appspot.com",
   messagingSenderId: "467107237720",
   appId: "1:467107237720:web:f694ac4fcaa2ee27919f2d"
-};
+}
 // Initialize Firebase
 
 firebase.initializeApp(firebaseConfig);
