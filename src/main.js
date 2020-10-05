@@ -15,20 +15,7 @@ import "@/plugins/vuetify-money.js";
 
 const { db } = require('../.env')
 
-
-
-
-
-
-var firebaseConfig = {
-  apiKey: "AIzaSyBcG0R5KiJunq1PyU8WVaMdfo-k0t4rh04",
-  authDomain: "dicuore.firebaseapp.com",
-  databaseURL: "https://dicuore.firebaseio.com",
-  projectId: "dicuore",
-  storageBucket: "dicuore.appspot.com",
-  messagingSenderId: "467107237720",
-  appId: "1:467107237720:web:f694ac4fcaa2ee27919f2d"
-}
+var firebaseConfig = db
 // Initialize Firebase
 
 firebase.initializeApp(firebaseConfig);
